@@ -34,7 +34,7 @@ app.post('/imageurl', (req, res) => { image.handleApiCall(req, res,) })
 
 
 app.listen(3000, ()=> {
-	console.log('running smoothly');
+	console.log(`running smoothly, on port ${process.env.PORT}`);
 })
 
 
