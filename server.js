@@ -13,7 +13,7 @@ const db = knex({
   connection: {
     host : 'postgresql-sinuous-07366',
     user : 'postgres',
-    password : '',
+    password : 'postyourface',
     database : 'smart-brain'
   }
 });
